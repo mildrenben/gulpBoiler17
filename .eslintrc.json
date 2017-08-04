@@ -1,0 +1,22 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true
+		},
+		"sourceType": "module",
+		"ecmaVersion": 6
+	},
+	"rules": {
+		"indent": ["error", "tab"],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "single", { "allowTemplateLiterals": true }],
+		"semi": ["error", "always"],
+		"max-params": ["error", 3],
+		"comma-spacing": ["error", { "before": false, "after": true }]
+	}
+}
